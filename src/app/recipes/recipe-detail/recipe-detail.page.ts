@@ -27,6 +27,26 @@ export class RecipeDetailPage implements OnInit {
     });
   }
 
+  ionViewWillEnter() {
+    console.log('ionViewWillEnter');
+  }
+
+  ionViewDidEnter() {
+    console.log('ionViewDidEnter');
+  }
+
+  ionViewWillLeave() {
+    console.log('ionViewWillLeave');
+  }
+
+  ionViewDidLeave() {
+    console.log('ionViewDidLeave');
+  }
+
+  ngOnDestroy() {
+    console.log('ngOnDestroy');
+  }
+
   onDeleteRecipe() {
     this.alertCtrl.create(
       {

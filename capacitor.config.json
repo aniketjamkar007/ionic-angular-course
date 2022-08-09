@@ -1,5 +1,6 @@
 {
   "server": {
-    "url": "http://192.168.0.111:8101"
+    "url": "http://localhost:8101",
+    "originalUrl": "http://192.168.0.111:8101"
   }
 }
